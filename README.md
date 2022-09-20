@@ -1,7 +1,5 @@
 # Crypto Trading Bot
 
-[![Build Status](https://travis-ci.org/Haehnchen/crypto-trading-bot.svg?branch=master)](https://travis-ci.org/Haehnchen/crypto-trading-bot)
-
 A **work in progress** Cryptocurrency for common exchanges like Bitfinex, Bitmex and Binance.
 As most trading bots just provide basic buy and sell signals they provide many stuff to get profitable eg exchange orders like stop-losses or stop-limits are not supported by main bots. Also the limitation of fixed timeframe and technical indicators must be broken  
 
@@ -400,31 +398,4 @@ node index.js backfill -e bitmex -p 1m -s XRPZ18
 ```
 npm test
 ```
-
-## Related Links
-
-### Trading Bots Inspiration
-
-Other bots with possible design pattern
-
- * https://github.com/DeviaVir/zenbot
- * https://github.com/magic8bot/magic8bot
- * https://github.com/askmike/gekko
- * https://github.com/freqtrade/freqtrade
- * https://github.com/Ekliptor/WolfBot
- * https://github.com/andresilvasantos/bitprophet
- * https://github.com/kavehs87/PHPTradingBot
- * https://github.com/Superalgos/Superalgos
-
-### Strategies
-
-Some strategies based on technical indicators for collection some ideas
-
- * https://github.com/freqtrade/freqtrade-strategies
- * https://github.com/freqtrade/freqtrade-strategies/tree/master/user_data/strategies/berlinguyinca
- * https://github.com/xFFFFF/Gekko-Strategies
- * https://github.com/sthewissen/Mynt/tree/master/src/Mynt.Core/Strategies
- * https://github.com/Ekliptor/WolfBot/tree/master/src/Strategies
- * https://github.com/Superalgos/Strategy-BTC-WeakHandsBuster
- * https://github.com/Superalgos/Strategy-BTC-BB-Top-Bounce
  
